@@ -4,10 +4,15 @@ html{
 }
 
 p, h1, h2, h3, h4, h5, h6{
-    margin: 40px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
 }
 h1{
+    margin-top: 40px;
     font-size:35px;
+}
+
+h4{
+    margin-top: 30px;
 }
 
 p{
@@ -81,12 +86,12 @@ header{
 
 header img{
     width: auto;
-    height: 7rem;
+    height: 15rem;
     padding: 1rem;
 }
 
 footer{
-    background: tomato;
+    background: rgb(86, 196, 204);
     width: 100%;
     margin-bottom:0;
     margin-top:3rem;
@@ -97,8 +102,16 @@ footer{
 
 /*cabeçalho*/
 
+.title_principal{
+    font-size: 90px;
+    margin: 50px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(143, 115, 185);
+}
+
+
 nav{
-    background: rgb(223, 148, 148);
+    background: rgb(166, 146, 197);
     z-index: 2;
     position: sticky;
     width: 100%;
@@ -110,7 +123,7 @@ nav{
 }
 
 nav ul{
-    margin:25px;
+    margin:-25px 0 0 0;
     margin-left: -100px;
 }
 
@@ -122,7 +135,7 @@ nav li{
 
 .spotlight-banner{
     position: relative;
-    background:tomato;
+    background:rgb(86, 196, 204);
     width:100%;
     text-align: center;
     height: 350px;
@@ -179,7 +192,7 @@ nav li{
     height: 50px;
     font-size: 25px;
     margin: 20px;
-    background: tomato;
+    background: rgb(81, 159, 165);
     border: none;
     cursor: pointer;
 }
