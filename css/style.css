@@ -1,5 +1,5 @@
 html{
-    background: #eeeeee;
+    background: #f5f5f5;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -9,6 +9,8 @@ p, h1, h2, h3, h4, h5, h6{
 h1{
     margin-top: 40px;
     font-size:35px;
+    font-family: 'Pacifico';
+    color: #313131;
 }
 
 h4{
@@ -20,7 +22,7 @@ p{
     text-align: justify;
 }
 a{
-    color:#313131;
+    color:#313231;
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
 }
@@ -78,7 +80,7 @@ body{
 }
 
 header{
-    background: #eeeeee;
+    background: #f5f5f5;
     text-align: center;
     width: 100%;
     height: -90vh;
@@ -98,6 +100,7 @@ footer{
     padding-bottom: 10px;
     position: absolute;
     text-align: center;
+    color: #fff;
 }
 
 /*cabeçalho*/
@@ -111,7 +114,7 @@ footer{
 
 
 nav{
-    background: rgb(166, 146, 197);
+    background-image: linear-gradient(-135deg, rgb(143, 115, 185) 0%, rgb(86, 196, 204) 20%, #f296ab 40%, #d962db 60%, #858cdd 80%, #14b4d1 100%);
     z-index: 2;
     position: sticky;
     width: 100%;
@@ -153,11 +156,11 @@ nav li{
 } */
 
 .card{
-   
+    position: relative;
     border-radius: 5px;
-    width: auto;
     height: auto;
-    margin: 10px;
+    margin: 3px;
+    background:#fff;
 }
 
 .card img{
@@ -166,21 +169,37 @@ nav li{
 }
 
 .card-title{
-    position: absolute;
+    position: relative;
     text-align: left;
     font-size: 14px;
-    background: #fff;
+    padding: 10px;
+    background:#fff;
+    margin: -45px 0 0 0;
+
 } 
+
+.button-seemore{
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 25px;
+    margin: 50px 0 0 0;
+    background: rgb(86, 196, 204);
+    border: none;
+    color:#fff;
+    cursor: pointer;
+}
 
 
 /*about*/
 
 .image-about{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     background-size: cover;
     margin: 20px;
+    border: 1rem solid transparent;
 }
 
 
@@ -192,7 +211,45 @@ nav li{
     height: 50px;
     font-size: 25px;
     margin: 20px;
-    background: rgb(81, 159, 165);
+    background: linear-gradient(-135deg, rgb(143, 115, 185) 0%, rgb(86, 196, 204));
     border: none;
+    color:#fff;
     cursor: pointer;
 }
+
+
+.slider {
+	width: 100%;
+	height: 350px;
+    overflow: hidden;
+	position: relative;
+}
+
+.slide-holder {
+    width: 100%;
+	height: 350px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+  z-index: 3;
+	animation: scroller  18s linear 0s infinite;
+}
+
+
+@keyframes scroller {
+
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+    img:nth-child(2) {
+        z-index: 2;
+        animation-delay: 4s;
+      }
+      
+      img:nth-child(3) {
+        z-index: 1;
+        animation-delay: 8s;
+      }
