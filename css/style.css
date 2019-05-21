@@ -4,13 +4,18 @@ html{
 }
 
 p, h1, h2, h3, h4, h5, h6{
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
 }
 h1{
     margin-top: 40px;
     font-size:35px;
     font-family: 'Pacifico';
     color: #313131;
+}
+
+h2{
+    border-bottom: 2px solid #dfdfdf;
+    padding: 15px;
 }
 
 h4{
@@ -20,6 +25,7 @@ h4{
 p{
     font-size:25px;
     text-align: justify;
+    margin: 5px;
 }
 a{
     color:#313231;
@@ -32,7 +38,7 @@ button{
 }
 
 .center {
-	align-items: center;
+	text-align: center;
 }
 
 .flex{
@@ -58,6 +64,7 @@ button{
 body{
     margin: 0 auto;
 }
+
 
 .container{
     width:100%;
@@ -156,12 +163,12 @@ nav li{
     margin: 100px 0px 0px 0px;
 } */
 
+
 .card{
     position: relative;
     border-radius: 5px;
     height: auto;
     margin: 3px;
-    background:#fff;
 }
 
 .card img{
@@ -172,12 +179,53 @@ nav li{
 .card-title{
     position: relative;
     text-align: left;
-    font-size: 14px;
+    font-size: 2.5vw;
     padding: 10px;
     background:#fff;
     margin: -45px 0 0 0;
+    border-bottom: 4px solid  rgb(86, 196, 204);
 
 } 
+
+.card-text {
+    z-index: 100;
+    margin: 15px;
+    margin-top: -60px 60px 0 0;
+    padding: 10px;
+}
+
+.card-button {
+    background-color:  rgb(86, 196, 204);
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-size: 2vw;
+    padding: 6px 34px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card-title1{
+    position: absolute;
+    text-align: left;
+    font-size: 2.5vw;
+    padding: 10px;
+    background:#fff;
+    top: 0;
+    border-bottom: 4px solid  rgb(86, 196, 204);
+} 
+
+
+.card-button1{
+    width: 100%;
+    position: absolute;
+    font-size: 2.5vw;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    background:rgb(86, 196, 204);
+    border: none;
+}
 
 .button-seemore{
     width: 200px;
@@ -223,7 +271,8 @@ nav li{
 	width: 100%;
 	height: 350px;
     overflow: hidden;
-	position: relative;
+    position: relative;
+    background-size:cover;
 }
 
 .slide-holder {
@@ -232,7 +281,8 @@ nav li{
     position: absolute;
     top: 0; 
     left: 0;
-	animation: scroller  18s linear 0s infinite;
+    z-index: 3;
+	animation: scroller  14s linear 0s infinite;
 }
 
 
@@ -253,3 +303,11 @@ nav li{
         z-index: 1;
         animation-delay: 8s;
       }
+
+
+
+
+
+      
+     
+      
