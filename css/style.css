@@ -124,6 +124,7 @@ header img{
 footer{
     background: rgb(86, 196, 204);
     width: 100%;
+    bottom:0;
     margin-bottom:0;
     margin-top:3rem;
     padding-bottom: 10px;
