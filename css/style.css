@@ -1,5 +1,5 @@
 html{
-    background: #fff;
+    background: #395f9f;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -88,7 +88,7 @@ body{
 }
 
 .container2{
-    margin:100px 0 0 0;
+    margin:300px 0 0 0;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,7 +121,7 @@ header img{
     height: 15rem;
 }
 
-footer{
+/* footer{
     background: rgb(86, 196, 204);
     width: 100%;
     bottom:0;
@@ -131,7 +131,7 @@ footer{
     position: absolute;
     text-align: center;
     color: #fff;
-}
+} */
 
 /*cabeçalho*/
 
@@ -226,7 +226,8 @@ nav li{
     width: 400px;
     height: auto;
     margin: 0 auto;
-    box-shadow: 5px 8px 9px 3px #ededed;
+    background:#fff;
+    box-shadow: 5px 8px 9px 3px #2b4c84;
 }
 
 .card1 img{
