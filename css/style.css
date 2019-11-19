@@ -1,11 +1,11 @@
 html{
-    background: #395f9f;
+    background: #fff;
     font-family: 'Nunito', sans-serif;
 }
 
 p, h1, h2, h3, h4, h5, h6{
     margin: 20px 20px 20px 20px;
-    color:#fff;
+    color:#313131;
 }
 
 h1{
@@ -228,7 +228,7 @@ nav li{
     height: auto;
     margin: 0 auto;
     background:#fff;
-    box-shadow: 5px 8px 9px 3px #2b4c84;
+    box-shadow: 5px 8px 9px 3px #ccc;
 }
 
 .card1 img{
