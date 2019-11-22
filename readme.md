@@ -3,7 +3,4 @@
 ### Bem-vindo!
 Esse é meu portfólio pessoal e em breve liberarei uma versão case para quem quiser utilizar!
 
-### "Linguagens utilizadas"
-
-- HTML5
-- CSS3
+Para acessar o link do perfil, clique [aqui!](rairaizabel.github.io)
