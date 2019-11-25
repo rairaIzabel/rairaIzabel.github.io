@@ -9,7 +9,7 @@ p, h1, h2, h3, h4, h5, h6{
 
 h1{
     margin: 70px;
-    font-size:2vw;
+    font-size:1.2vw;
     text-align: center;
     font-family: 'nunito';
 }
@@ -321,7 +321,7 @@ nav li a{
     position: relative;
     border-radius: 5px;
     width: auto;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     z-index: 999;
     height: 30px;
     color: #fff;
@@ -506,7 +506,7 @@ nav li a{
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
-    margin-left:6.5rem;
+    margin-left:2rem;
     font-size: 2rem;
 }
 
@@ -530,6 +530,8 @@ nav li a{
     padding: 10px;
     font-weight: 600;
     margin: 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
 }
 
 .card-text {
@@ -559,7 +561,7 @@ nav li a{
     font-size: 25px;
     line-height: 70px;
     background: #fff;
-    margin: 100px 0 0 170px;
+    margin: 10px 10px 0 10px;
     z-index: 999;
     color: #5ebdde;
 }
