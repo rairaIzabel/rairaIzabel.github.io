@@ -136,7 +136,7 @@ body{
 }
    
 .item{
-    background: #705e88;
+    background-image: linear-gradient(to bottom right, #a487ca, #c96ea5);
     flex: 1;
 }
 
