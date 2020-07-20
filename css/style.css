@@ -21,6 +21,8 @@ span{
     color: #fff;
     font-weight: bold;
 }
+
+
 a:hover{
     transition: 0.5 ease-in-out;
     color:#5ebdde; 
