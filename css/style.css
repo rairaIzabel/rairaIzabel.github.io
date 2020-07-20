@@ -138,7 +138,7 @@ body{
 }
    
 .item{
-    background-image: linear-gradient(to bottom right, #a487ca, #c96ea5);
+    background:#a487ca;
     flex: 1;
 }
 
@@ -150,7 +150,7 @@ body{
     background:#fff;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 400px) {
     .row{
         flex-direction: column;
     }
@@ -200,7 +200,6 @@ body{
     border-radius: 5px;
     font-size: 15px;
     border: none;
-    color:#000;
     cursor: pointer;
 }
 
@@ -218,7 +217,7 @@ body{
     width: 100px;
     height: 7px;
     border-radius: 10px;
-    background: #6BB1B6;
+    background: #a24bbd;
     position:absolute;
     content:"";
     animation: step-load 2s linear;
@@ -237,7 +236,7 @@ body{
     width: 100px;
     height: 7px;
     border-radius: 10px;
-    background: #4CD4DD;
+    background: #4b9297;
     position:absolute;
     content:"";
     animation: step-load1 2s linear;
@@ -256,7 +255,7 @@ body{
     width: 100px;
     height: 7px;
     border-radius: 10px;
-    background:#E986C1;
+    background:#ff7bcd;
     position:absolute;
     content:"";
     animation: step-load2 2s linear;
