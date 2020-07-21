@@ -89,21 +89,34 @@ body{
 /*bg*/
 
 .white{
-   background: #fff;
+   background: #fff!important;
 }
 
 .turquese{
-    background: aquamarine;
+    background: aquamarine!important;
 }
 
 .purple{
-    background: #a487ca;
+    background: #a487ca!important;
 }
 
 .rose{
-    background:#E986C1;
+    background:#E986C1!important;
 }
 
+.grey{
+    background: #f8f8f8!important;
+}
+
+.text-font{
+    font-size: 17px!important;
+    color: #afafaf!important;
+}
+
+.text-small{
+    font-size: 12px!important;
+    color: #afafaf!important;
+}
 
 .center{
     align-items: center;
@@ -113,11 +126,16 @@ body{
     border-radius: 360%;
 }
 
+.border-rounded{
+    border-radius: 10px;
+}
+
 .avatar{
     width: 250px;
     height: 250px;
     border: 8px solid #a487ca;
 }
+
 
 .container{
     width: auto;
@@ -168,7 +186,6 @@ body{
    float: left;
     border-radius: 5px;
     height: auto;
-    background: #fff;
     width:auto;
     padding: 8px;
 }
